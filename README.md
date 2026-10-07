@@ -4,7 +4,7 @@ A small, phone-first static website for gifting a Pixel 8 with GrapheneOS. It ha
 
 ## Personalize it
 
-The welcome already addresses the recipient as **Crazy Cat Lady**. Open `index.html` and replace `[Your name]` with your sign-off. Read the guide once as the recipient would, especially the handoff note above the videos.
+The welcome addresses the recipient as **Crazy Cat Lady**, and the sign-off is already written as a self-deprecating joke. Read the guide once as the recipient would, especially the handoff note above the videos.
 
 For the cleanest handoff, make sure your personal accounts and data are removed and the device is waiting at its initial setup screen. If the phone has already been used, back up anything you need before erasing it from Settings. A factory reset erases user data; it does not reinstall the operating system. Do not give the recipient your passcode or account credentials.
 
