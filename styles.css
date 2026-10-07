@@ -129,12 +129,11 @@ h1 span { color: #678b2d; }
 h2 { margin-bottom: 8px; font: 700 37px/1.2 var(--display); letter-spacing: 0; }
 .section-intro { margin: 0; color: #666b61; font-size: 15px; }
 .step-list { margin: 0; padding: 0; list-style: none; border-top: 1px solid var(--line); }
-.step-list li { min-height: 91px; padding: 19px 0; display: grid; grid-template-columns: 39px 1fr 20px; gap: 13px; align-items: start; border-bottom: 1px solid var(--line); }
+.step-list li { min-height: 91px; padding: 19px 0; display: grid; grid-template-columns: 39px 1fr; gap: 13px; align-items: start; border-bottom: 1px solid var(--line); }
 .step-no { padding-top: 2px; color: #85897e; font: 11px var(--mono); }
 .step-list h3, .control-row h3, .topic h3, .backup-copy h3 { margin: 0 0 4px; font-size: 15px; line-height: 1.4; }
 .step-list p, .control-row p, .topic p { margin: 0; color: #656a60; font-size: 13px; line-height: 1.6; }
 .step-list p b { color: #454b42; }
-.step-mark { color: #8aa449; font-size: 13px; }
 .callout { margin-top: 23px; padding: 16px 18px; display: grid; grid-template-columns: 22px 1fr; gap: 12px; align-items: start; }
 .callout-coral { background: #f5dfd5; }
 .callout-icon { display: grid; width: 20px; height: 20px; place-items: center; border: 1px solid #bd7560; border-radius: 50%; color: #974f3a; font: 700 12px var(--mono); }
@@ -266,7 +265,6 @@ h2 { margin-bottom: 8px; font: 700 37px/1.2 var(--display); letter-spacing: 0; }
   h2 { font-size: 31px; }
   .section-intro { font-size: 14px; }
   .step-list li { grid-template-columns: 26px 1fr; gap: 10px; }
-  .step-mark { display: none; }
   .topic-grid { grid-template-columns: 1fr; }
   .topic { min-height: 0; padding: 16px 17px; }
   .topic-index { margin-bottom: 9px; }
