@@ -38,6 +38,16 @@ h1 { margin: 23px 0 17px; font: 800 clamp(54px, 7.5vw, 96px)/.99 var(--display);
 h1 span { color: #678b2d; }
 .welcome-note { max-width: 495px; margin-bottom: 24px; color: #565d53; font-size: 16px; line-height: 1.7; }
 .welcome-note strong { color: var(--ink); }
+.paw-trail { width: 160px; height: 40px; margin: -8px 0 17px 7px; display: flex; gap: 7px; align-items: center; }
+.paw-print { position: relative; flex: 0 0 32px; width: 32px; height: 32px; color: #719447; transform: rotate(-19deg); }
+.paw-print:nth-child(even) { transform: rotate(16deg) translateY(4px); }
+.paw-toe, .paw-pad { position: absolute; display: block; background: currentColor; }
+.paw-toe { width: 7px; height: 9px; border-radius: 50%; }
+.paw-toe-one { left: 2px; top: 10px; transform: rotate(-38deg); }
+.paw-toe-two { left: 9px; top: 3px; transform: rotate(-14deg); }
+.paw-toe-three { right: 8px; top: 2px; transform: rotate(14deg); }
+.paw-toe-four { right: 1px; top: 9px; transform: rotate(38deg); }
+.paw-pad { left: 8px; bottom: 3px; width: 17px; height: 13px; border-radius: 55% 55% 48% 48%; }
 .start-link { display: inline-flex; gap: 11px; align-items: center; font-size: 13px; font-weight: 700; text-decoration: none; }
 .start-icon { display: grid; width: 31px; height: 31px; place-items: center; border: 1px solid #9ca68a; border-radius: 50%; font-size: 18px; transition: background .2s, transform .2s; }
 .start-link:hover .start-icon { transform: translateY(3px); background: var(--green); }
